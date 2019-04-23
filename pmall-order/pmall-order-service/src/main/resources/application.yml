@@ -1,0 +1,30 @@
+server:
+  port: 8084
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/xmall?serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    thymeleaf:
+      cache: false;
+  dubbo:
+    application:
+      id: pmall-order
+      name: pmall-order
+    registry:
+      address: zookeeper://127.0.0.1:2181
+    protocol:
+      id: dubbo
+      name: dubbo
+      port: 20883
+      status: server
+    #scan: com.sj.pmallorder.Service.impl
+  #aop:
+    #proxy-target-class: false
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.sj.pmallorder.api.entity

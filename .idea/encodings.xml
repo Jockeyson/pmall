@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/pmall-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-front" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-goods/pmall-goods-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-goods/pmall-goods-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-member" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-member/pmall-member-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-member/pmall-member-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-order/pmall-order-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-order/pmall-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-search/pmall-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmall-sys" charset="UTF-8" />
+  </component>
+</project>

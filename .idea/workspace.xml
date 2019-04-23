@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6fa19fb3-7fc7-41e0-9bc1-81524790dd23" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/pmall-parent/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-common/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-order/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-admin/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-front/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-member/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-goods/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-sys/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-search/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-search/pmall-search-service/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-search/pmall-search-api/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-member/pmall-member-api/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-member/pmall-member-service/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-goods/pmall-goods-api/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-goods/pmall-goods-service/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-order/pmall-order-api/target/" />
+    <ignored path="$PROJECT_DIR$/pmall-order/pmall-order-service/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/java/com/sj/pmallgoods/service/impl/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/resources/mapper/MallGoodsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/controller/ConcurrencyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/controller/ConsumerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmall-member/pmall-member-service/src/main/resources/mapper/MallMemberMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/mapper/MallOrderMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2633">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmall-goods/pmall-goods-api/src/main/java/com/sj/pmallgoods/api/entity/MallGoods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+              <folding>
+                <element signature="e#1894#1895#0" expanded="true" />
+                <element signature="e#1932#1933#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmall-goods/pmall-goods-api/src/main/java/com/sj/pmallgoods/api/service/GoodsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/java/com/sj/pmallgoods/service/mapper/MallGoodsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/mapper/TbOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/java/com/sj/pmallgoods/service/mapper/TbItemMapper.java" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/resources/mapper/TbItemMapper.xml" />
+        <option value="$PROJECT_DIR$/pmall-front/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/service/RobbingService.java" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/java/com/sj/pmallgoods/service/PmallGoodsServiceApplication.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/PmallOrderServiceApplication.java" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/config/FescarConfig.java" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/java/com/sj/pmallgoods/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/config/FescarConfig.java" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/java/com/sj/pmallgoods/service/config/FescarConfig.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/mapper/TbOrderRobbingMapper.xml" />
+        <option value="$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/service/TransService.java" />
+        <option value="$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/service/ConcurrencyService.java" />
+        <option value="$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/service/InitService.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/jedis/RedisUtil2.java" />
+        <option value="$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/jedis/RedisClient.java" />
+        <option value="$PROJECT_DIR$/pmall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/pmall-common/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/PmallFrontApplication.java" />
+        <option value="$PROJECT_DIR$/pmall-front/pom.xml" />
+        <option value="$PROJECT_DIR$/pmall-front/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-api/src/main/java/com/sj/pmallorder/api/entity/TbOrder.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-api/src/main/java/com/sj/pmallorder/api/entity/MallOrder.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-api/src/main/java/com/sj/pmallorder/api/entity/TbOrderRobbingRecord.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-api/src/main/java/com/sj/pmallorder/api/entity/MallOrderRobbingRecord.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-api/src/main/java/com/sj/pmallorder/api/service/OrderRobbingService.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/mapper/MallOrderMapper.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/mapper/MallOrderRobbingMapper.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-api/src/main/java/com/sj/pmallorder/api/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/impl/OrderRobbingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pmall-member/pmall-member-api/src/main/java/com/sj/pmallmember/api/entity/MallMember.java" />
+        <option value="$PROJECT_DIR$/pmall-member/pmall-member-api/src/main/java/com/sj/pmallmember/api/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/pmall-member/pmall-member-service/src/main/java/com/sj/pmallmember/service/mapper/MallMemberMapper.java" />
+        <option value="$PROJECT_DIR$/pmall-member/pmall-member-service/src/main/java/com/sj/pmallmember/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-api/src/main/java/com/sj/pmallgoods/api/entity/MallItem.java" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-api/src/main/java/com/sj/pmallgoods/api/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/java/com/sj/pmallgoods/service/mapper/MallGoodsMapper.java" />
+        <option value="$PROJECT_DIR$/pmall-member/pmall-member-service/src/main/resources/mapper/MallMemberMapper.xml" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/mapper/MallOrderMapper.xml" />
+        <option value="$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/mapper/MallOrderRobbingMapper.xml" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/resources/mapper/MallGoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-api/src/main/java/com/sj/pmallgoods/api/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/java/com/sj/pmallgoods/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/controller/ConcurrencyController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\apache-maven-3.6.0\repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="506" />
+    <option name="y" value="47" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556039121676" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="D:/JavaProjects/2019/boot/firstboot" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.23793103" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\githubcode\pmall\pmall-goods\src\main\resources" />
+      <recent name="D:\githubcode\pmall\pmall-member\pmall-member-service\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sj.pmallfront" />
+      <recent name="com.sj.pmallmember" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sj.pmallfront.controller" />
+      <recent name="com.sj.pmallfront.listener" />
+      <recent name="com.sj.pmallfront.config" />
+      <recent name="com.sj.pmallgoods.service.impl" />
+      <recent name="com.sj.pmallgoods.service.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\githubcode\pmall\pmall-common\src\main\resources" />
+      <recent name="D:\githubcode\pmall\pmall-common\src\main\java\com\sj\pmallcommon" />
+      <recent name="D:\githubcode\pmall\pmall-front\src\main\java\com\sj\pmallfront" />
+      <recent name="D:\githubcode\pmall\pmall-front\src\main\java\com\sj\pmallfront\service" />
+      <recent name="D:\githubcode\pmall\pmall-front\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PmallFrontApplication">
+    <configuration name="PmallAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmalladmin.PmallAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallFrontApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="pmall-front" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallfront.PmallFrontApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallGoodsApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-goods-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallgoods.api.PmallGoodsApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallGoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-goods" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallgoods.PmallGoodsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallGoodsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-goods-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallgoods.service.PmallGoodsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallmember.PmallMemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallMemberServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-member-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallmember.service.PmallMemberServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallOrderApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-order-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallorder.api.PmallOrderApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallorder.PmallOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallorder.service.PmallOrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallSearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-search-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallsearchservice.PmallSearchServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PmallSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmall-sys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sj.pmallsys.PmallSysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.PmallAdminApplication" />
+      <item itemvalue="Spring Boot.PmallFrontApplication" />
+      <item itemvalue="Spring Boot.PmallGoodsApplication" />
+      <item itemvalue="Spring Boot.PmallMemberApplication" />
+      <item itemvalue="Spring Boot.PmallOrderApplication" />
+      <item itemvalue="Spring Boot.PmallSearchServiceApplication" />
+      <item itemvalue="Spring Boot.PmallSysApplication" />
+      <item itemvalue="Spring Boot.PmallMemberServiceApplication" />
+      <item itemvalue="Spring Boot.PmallGoodsApiApplication" />
+      <item itemvalue="Spring Boot.PmallGoodsServiceApplication" />
+      <item itemvalue="Spring Boot.PmallOrderApiApplication" />
+      <item itemvalue="Spring Boot.PmallOrderServiceApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fa19fb3-7fc7-41e0-9bc1-81524790dd23" name="Default Changelist" comment="" />
+      <created>1555336931400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555336931400</updated>
+      <workItem from="1555336934599" duration="40452000" />
+      <workItem from="1555599428273" duration="1925000" />
+      <workItem from="1555658721145" duration="26720000" />
+      <workItem from="1555728676812" duration="36757000" />
+      <workItem from="1555900670604" duration="31050000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="136904000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38199696" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.049099836" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.6988543" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.15711948" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Maven" order="9" visible="true" weight="0.08245083" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="3" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/config/FescarConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/config/FescarConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="70" column="1" selection-start-line="3" selection-end-line="70" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/listener/UserOrderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/service/ConcurrencyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/registry.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/service/TransService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/service/RobbingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/service/InitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/file.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="74" column="25" selection-start-line="70" selection-start-column="7" selection-end-line="74" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/jedis/SystemClock.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/jedis/RedisClientInvoker.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/jedis/RedisUtil2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29790">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/jedis/TimeUnitUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/jedis/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1386">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="21" selection-start-line="21" selection-start-column="7" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/jedis/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/redis/jedis/JedisPoolFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/src/main/java/com/sj/pmallcommon/redis/jedis/JedisPoolFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/PmallFrontApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1253">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-member/pmall-member-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-743" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-api/src/main/java/com/sj/pmallorder/api/entity/MallOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1259">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-api/src/main/java/com/sj/pmallorder/api/entity/MallOrderRobbingRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/mapper/MallOrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/mapper/MallOrderRobbingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-api/src/main/java/com/sj/pmallorder/api/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-api/src/main/java/com/sj/pmallorder/api/service/OrderRobbingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/java/com/sj/pmallorder/service/impl/OrderRobbingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-member/pmall-member-api/src/main/java/com/sj/pmallmember/api/entity/MallMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+          <folding>
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-member/pmall-member-api/src/main/java/com/sj/pmallmember/api/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-member/pmall-member-service/src/main/java/com/sj/pmallmember/service/mapper/MallMemberMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-member/pmall-member-service/src/main/java/com/sj/pmallmember/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-goods/pmall-goods-api/src/main/java/com/sj/pmallgoods/api/entity/MallGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+          <folding>
+            <element signature="e#1894#1895#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/mapper/MallOrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2633">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-order/pmall-order-service/src/main/resources/mapper/MallOrderRobbingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-member/pmall-member-service/src/main/resources/mapper/MallMemberMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/resources/mapper/MallGoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-goods/pmall-goods-api/src/main/java/com/sj/pmallgoods/api/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/java/com/sj/pmallgoods/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-goods/pmall-goods-service/src/main/java/com/sj/pmallgoods/service/mapper/MallGoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmall-front/src/main/java/com/sj/pmallfront/controller/ConcurrencyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>pmall-front</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23793103" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

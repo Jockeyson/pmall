@@ -1,0 +1,32 @@
+server:
+  port: 8083
+
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://127.0.0.1:3306/xmall?serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    thymeleaf:
+      cache: false;
+  dubbo:
+    application:
+
+      id: pmall-member
+      name: pmall-member
+    registry:
+      address: zookeeper://127.0.0.1:2181
+
+    protocol:
+      id: dubbo
+
+      name: dubbo
+
+      port: 20880
+      status: server
+
+    scan: com.sj.pmallmember.Service
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.sj.pmallmember.api.entity

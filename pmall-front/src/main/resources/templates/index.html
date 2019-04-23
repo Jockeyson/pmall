@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/layui/css/admin.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/layui/layui.js"></script>
+    <script src="/js/main.js"></script>
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin app-container">
+    <div class="layui-header">
+        <div class="layui-logo">SpringBoot+Dubbo分布式Demo</div>
+        <!-- 头部区域（可配合layui已有的水平导航） -->
+        <ul class="layui-nav layui-layout-left">
+            <li class="layui-nav-item">
+                <a href="#" lay-id="/">主页</a>
+            </li>
+        </ul>
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="javascript:;">
+                    <img src="https://avatars2.githubusercontent.com/u/16729118?s=40&v=4" class="layui-nav-img" />管理员
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="layui-side layui-side-menu layui-bg-black adminui-navMenu">
+        <div class="layui-side-scroll">
+            <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+            <ul class="layui-nav layui-nav-tree" lay-filter="test">
+                <li class="layui-nav-item">
+                    <a href="javascript:;" lay-id="http://localhost:9000" tab-text="服务管理">服务管理</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="layui-body">
+        <div style="padding: 15px;">
+            <div class="layui-tab"  lay-allowClose="true" lay-filter="layadmin-layout-tabs" overflow>
+                <ul class="layui-tab-title">
+                    <li class="layui-this" lay-id="/">主页</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show">
+                        <div class="layui-fluid">
+                            <div class="layui-row layui-col-space15">
+                                <div class="layui-col-md12">
+                                    <div class="layui-card">
+                                        <div class="layui-card-header">
+                                            简介
+                                            <i class="layui-icon layui-icon-tips" lay-tips="待完善" lay-offset="5"></i>
+                                        </div>
+                                        <div class="layui-card-body layui-text layadmin-text">
+                                            <p>1. SpringBoot+Dubbo商城分布式Demo。</p>
+                                            <p>2. 只做分布式功能演示，未实现商城业务功能。</p>
+                                            <p>3. 功能模块划分：</p>
+                                            <p>pmall-admin(后台，暂为空)</p>
+                                            <p>pmall-front(前台，服务测试，管理等页面)</p>
+                                            <p>pmall-common(公共模块)</p>
+                                            <p>pmall-parent(公共依赖，暂为空)</p>
+                                            <p>pmall-member(会员)，子模块：pmall-member-api，pmall-member-service</p>
+                                            <p>pmall-order(订单)，子模块：pmall-order-api，pmall-order-service</p>
+                                            <p>pmall-goods(商品)，子模块：pmall-goods-api，pmall-goods-service</p>
+                                            <p>pmall-sys(系统，除了会员，订单，商品之外其他功能)，子模块：pmall-sys-api，pmall-sys-service</p>
+                                            <p>pmall-search(搜索)，子模块：pmall-search-api，pmall-searh-service</p>
+                                            <p>以上api子模块均为服务接口，service子模块均为服务实现</p>
+                                            <p>4. github源码：<a href="https://github.com/Jockeyson" target="_blank">SpringBoot+Dubbo分布式Demo</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .layui-card-header .layui-icon {
+        line-height: initial;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        margin-top: -7px;
+    }
+</style>
+</body>
+</html>

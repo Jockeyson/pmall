@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pmall-admin/pmall-admin.iml" filepath="$PROJECT_DIR$/pmall-admin/pmall-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-common/pmall-common.iml" filepath="$PROJECT_DIR$/pmall-common/pmall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-front/pmall-front.iml" filepath="$PROJECT_DIR$/pmall-front/pmall-front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-goods/pmall-goods.iml" filepath="$PROJECT_DIR$/pmall-goods/pmall-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-goods/pmall-goods-api/pmall-goods-api.iml" filepath="$PROJECT_DIR$/pmall-goods/pmall-goods-api/pmall-goods-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-goods/pmall-goods-service/pmall-goods-service.iml" filepath="$PROJECT_DIR$/pmall-goods/pmall-goods-service/pmall-goods-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-member/pmall-member.iml" filepath="$PROJECT_DIR$/pmall-member/pmall-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-member/pmall-member-api/pmall-member-api.iml" filepath="$PROJECT_DIR$/pmall-member/pmall-member-api/pmall-member-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-member/pmall-member-service/pmall-member-service.iml" filepath="$PROJECT_DIR$/pmall-member/pmall-member-service/pmall-member-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-order/pmall-order.iml" filepath="$PROJECT_DIR$/pmall-order/pmall-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-order/pmall-order-api/pmall-order-api.iml" filepath="$PROJECT_DIR$/pmall-order/pmall-order-api/pmall-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-order/pmall-order-service/pmall-order-service.iml" filepath="$PROJECT_DIR$/pmall-order/pmall-order-service/pmall-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-parent/pmall-parent.iml" filepath="$PROJECT_DIR$/pmall-parent/pmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-search/pmall-search.iml" filepath="$PROJECT_DIR$/pmall-search/pmall-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-search/pmall-search-api/pmall-search-api.iml" filepath="$PROJECT_DIR$/pmall-search/pmall-search-api/pmall-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-search/pmall-search-service/pmall-search-service.iml" filepath="$PROJECT_DIR$/pmall-search/pmall-search-service/pmall-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmall-sys/pmall-sys.iml" filepath="$PROJECT_DIR$/pmall-sys/pmall-sys.iml" />
+    </modules>
+  </component>
+</project>

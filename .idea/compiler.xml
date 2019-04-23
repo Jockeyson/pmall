@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pmall-admin" />
+        <module name="pmall-common" />
+        <module name="pmall-front" />
+        <module name="pmall-goods-api" />
+        <module name="pmall-goods-service" />
+        <module name="pmall-member-api" />
+        <module name="pmall-member-service" />
+        <module name="pmall-order-api" />
+        <module name="pmall-order-service" />
+        <module name="pmall-search-api" />
+        <module name="pmall-search-service" />
+        <module name="pmall-sys" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pmall-admin" target="1.8" />
+      <module name="pmall-common" target="1.8" />
+      <module name="pmall-front" target="1.8" />
+      <module name="pmall-goods" target="1.8" />
+      <module name="pmall-goods-api" target="1.8" />
+      <module name="pmall-goods-service" target="1.8" />
+      <module name="pmall-member" target="1.8" />
+      <module name="pmall-member-api" target="1.8" />
+      <module name="pmall-member-service" target="1.8" />
+      <module name="pmall-order" target="1.8" />
+      <module name="pmall-order-api" target="1.8" />
+      <module name="pmall-order-service" target="1.8" />
+      <module name="pmall-parent" target="1.8" />
+      <module name="pmall-search" target="1.5" />
+      <module name="pmall-search-api" target="1.5" />
+      <module name="pmall-search-service" target="1.8" />
+      <module name="pmall-sys" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pmall-admin" options="-parameters" />
+      <module name="pmall-common" options="-parameters" />
+      <module name="pmall-front" options="-parameters" />
+      <module name="pmall-goods" options="-parameters" />
+      <module name="pmall-goods-api" options="-parameters" />
+      <module name="pmall-goods-service" options="-parameters" />
+      <module name="pmall-member" options="-parameters" />
+      <module name="pmall-member-api" options="-parameters" />
+      <module name="pmall-member-service" options="-parameters" />
+      <module name="pmall-order" options="-parameters" />
+      <module name="pmall-order-api" options="-parameters" />
+      <module name="pmall-order-service" options="-parameters" />
+      <module name="pmall-search-service" options="-parameters" />
+      <module name="pmall-sys" options="-parameters" />
+    </option>
+  </component>
+</project>

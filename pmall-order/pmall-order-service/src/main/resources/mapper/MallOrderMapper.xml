@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sj.pmallorder.service.mapper.MallOrderMapper">
+    <resultMap id="BaseResultMap" type="com.sj.pmallorder.api.entity.TbOrder">
+        <id column="id" jdbcType="VARCHAR" property="id" />
+        <result column="payment" jdbcType="DECIMAL" property="payment" />
+        <result column="payment_type" jdbcType="INTEGER" property="paymentType" />
+        <result column="post_fee" jdbcType="DECIMAL" property="postFee" />
+        <result column="status" jdbcType="INTEGER" property="status" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+        <result column="payment_time" jdbcType="TIMESTAMP" property="paymentTime" />
+        <result column="delivery_time" jdbcType="TIMESTAMP" property="deliveryTime" />
+        <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
+        <result column="close_time" jdbcType="TIMESTAMP" property="closeTime" />
+        <result column="shipping_name" jdbcType="VARCHAR" property="shippingName" />
+        <result column="shipping_code" jdbcType="VARCHAR" property="shippingCode" />
+        <result column="member_id" jdbcType="INTEGER" property="memberID" />
+        <result column="buyer_message" jdbcType="VARCHAR" property="buyerMessage" />
+        <result column="buyer_is_commented" jdbcType="BIT" property="buyerComment" />
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, payment, payment_type, post_fee, status, create_time, update_time, payment_time,
+    delivery_time, end_time, close_time, shipping_name, shipping_code, member_id, buyer_message,
+    buyer_is_commented
+  </sql>
+    <insert id="insert" parameterType="com.sj.pmallorder.api.entity.MallOrder">
+    insert into pmall_order (payment, payment_type,
+      post_fee, status, create_time,
+      update_time, payment_time, delivery_time,
+      end_time, close_time, shipping_name,
+      shipping_code, member_id, buyer_message,
+      buyer_is_commented)
+    values (#{payment,jdbcType=DECIMAL}, #{paymentType,jdbcType=INTEGER},
+      #{postFee,jdbcType=DECIMAL}, #{status,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP},
+      #{updateTime,jdbcType=TIMESTAMP}, #{paymentTime,jdbcType=TIMESTAMP}, #{deliveryTime,jdbcType=TIMESTAMP},
+      #{endTime,jdbcType=TIMESTAMP}, #{closeTime,jdbcType=TIMESTAMP}, #{shippingName,jdbcType=VARCHAR},
+      #{shippingCode,jdbcType=VARCHAR}, #{memberID,jdbcType=BIGINT}, #{buyerMessage,jdbcType=VARCHAR},
+      #{buyerComment,jdbcType=BIT})
+  </insert>
+    <insert id="insertSelective" parameterType="com.sj.pmallorder.api.entity.MallOrder">
+        insert into pmall_order
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="payment != null">
+                payment,
+            </if>
+            <if test="paymentType != null">
+                payment_type,
+            </if>
+            <if test="postFee != null">
+                post_fee,
+            </if>
+            <if test="status != null">
+                status,
+            </if>
+            <if test="createTime != null">
+                create_time,
+            </if>
+            <if test="updateTime != null">
+                update_time,
+            </if>
+            <if test="paymentTime != null">
+                payment_time,
+            </if>
+            <if test="consignTime != null">
+                consign_time,
+            </if>
+            <if test="endTime != null">
+                end_time,
+            </if>
+            <if test="closeTime != null">
+                close_time,
+            </if>
+            <if test="shippingName != null">
+                shipping_name,
+            </if>
+            <if test="shippingCode != null">
+                shipping_code,
+            </if>
+            <if test="userId != null">
+                user_id,
+            </if>
+            <if test="buyerMessage != null">
+                buyer_message,
+            </if>
+            <if test="buyerNick != null">
+                buyer_nick,
+            </if>
+            <if test="buyerComment != null">
+                buyer_comment,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="orderId != null">
+                #{orderId,jdbcType=VARCHAR},
+            </if>
+            <if test="payment != null">
+                #{payment,jdbcType=DECIMAL},
+            </if>
+            <if test="paymentType != null">
+                #{paymentType,jdbcType=INTEGER},
+            </if>
+            <if test="postFee != null">
+                #{postFee,jdbcType=DECIMAL},
+            </if>
+            <if test="status != null">
+                #{status,jdbcType=INTEGER},
+            </if>
+            <if test="createTime != null">
+                #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null">
+                #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="paymentTime != null">
+                #{paymentTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="deliveryTime != null">
+                #{deliveryTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="endTime != null">
+                #{endTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="closeTime != null">
+                #{closeTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="shippingName != null">
+                #{shippingName,jdbcType=VARCHAR},
+            </if>
+            <if test="shippingCode != null">
+                #{shippingCode,jdbcType=VARCHAR},
+            </if>
+            <if test="memberID != null">
+                #{memberID,jdbcType=INTEGER},
+            </if>
+            <if test="buyerMessage != null">
+                #{buyerMessage,jdbcType=VARCHAR},
+            </if>
+            <if test="buyerComment != null">
+                #{buyerComment,jdbcType=BIT},
+            </if>
+        </trim>
+    </insert>
+</mapper>
